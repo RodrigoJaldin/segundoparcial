@@ -1,0 +1,91 @@
+.body1 {
+    background-image: url(../logincss/img/fondo.png);
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.modaleliminar-contenido {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.901);
+    width: 40%;
+    height: auto;
+    margin: 10% auto;
+    position: relative;
+    border-radius: 2%;
+
+}
+
+.modaleliminar .modaleliminar-contenido{
+    animation: show 0.5s
+}
+@keyframes show{
+    0%{
+        transform: translatey(-150vh);
+    }
+}
+
+.modaleliminar {
+    background-color: rgba(25, 25, 25, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.modalcompartir {
+    background-color: rgba(25, 25, 25, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.modalcompartir-contenido {
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.901);
+    width: 40%;
+    height: auto;
+    margin: 10% auto;
+    position: relative;
+    border-radius: 2%;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    border-top: 1px solid rgb(102, 102, 102);
+
+
+}
+
+.modalcompartir-contenido  .modal-body{
+    border-bottom: 1px solid rgb(102, 102, 102);
+    border-top: 1px solid rgb(102, 102, 102);
+
+}
+.modaleliminar-contenido .modal-body{
+    border-bottom: 1px solid rgb(102, 102, 102);
+
+}
+.modaleliminar-contenido .modal-header{
+    border-bottom: 1px solid rgb(102, 102, 102);
+
+}
+
+.modalcompartir .modalcompartir-contenido{
+    animation: show 0.5s
+}
+
+.modalunirse{
+    background-color: rgba(25, 25, 25, 0.8);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+@media print{
+    .no-print, .no-print * {
+        display: none !important;
+
+    }
+}
