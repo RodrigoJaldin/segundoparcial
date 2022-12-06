@@ -122,7 +122,7 @@ return [
     |
     */
 
-    'manifest_path' => null,
+    'manifest_path' => '/tmp/storage/livewire-components.php',
 
     /*
     |--------------------------------------------------------------------------
