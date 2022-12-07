@@ -17,7 +17,7 @@
 
 </head>
 
-<body class="body1">
+<body class="body" style="background-image: url({{asset("logincss/img/imagenfondo.jpg")}})">
     <nav class="navbar navbar-expand-lg" style="background: rgb(205, 206, 206) ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">

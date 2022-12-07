@@ -87,6 +87,10 @@
     <!--tabla de diagramas-->
     {{-- tabla de mis diagramas --}}
     @if ($op)
+    <div class="container justify-content-center text-center pt-3 mb-2">
+        <h2>Mis Diagramas</h2>
+
+    </div>
         <div class="container  mt-2 justify-content-center">
             <table class="table table-dark table-hover table-bordered border-dark mt-5 justify-content-center">
                 <thead>
@@ -137,6 +141,10 @@
     @endif
     {{-- tabla de diagramas  compartidos --}}
     @if (!$op)
+    <div class="container justify-content-center text-center pt-3 mb-2">
+        <h2>Diagramas Compartidos</h2>
+
+    </div>
         <div class="container  mt-2 justify-content-center">
             <table class="table table-dark table-hover table-bordered border-dark mt-5 justify-content-center">
                 <thead>
