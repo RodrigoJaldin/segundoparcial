@@ -49,7 +49,7 @@
             <script src="https://unpkg.com/gojs@2.2.17/extensions/Figures.js"></script>
             <script src="https://unpkg.com/gojs@2.2.17/extensions/DrawCommandHandler.js"></script>
             <script id="code">
-                const socket = io("http://127.0.0.1:3000/", {
+                const socket = io("http://52.55.84.103:3000/", {
                     transports: ["websocket"]
                 });
 
