@@ -87,8 +87,8 @@
     <!--tabla de diagramas-->
     {{-- tabla de mis diagramas --}}
     @if ($op)
-    <div class="container justify-content-center text-center pt-3 mb-2">
-        <h2>Mis Diagramas</h2>
+    <div class="container justify-content-center text-center pt-3 mb-2" >
+        <h2 style="color: rgb(254, 10, 10)">Mis Diagramas</h2>
 
     </div>
         <div class="container  mt-2 justify-content-center">
@@ -142,7 +142,7 @@
     {{-- tabla de diagramas  compartidos --}}
     @if (!$op)
     <div class="container justify-content-center text-center pt-3 mb-2">
-        <h2>Diagramas Compartidos</h2>
+        <h2 style="color: rgb(254, 10, 10)">Diagramas Compartidos</h2>
 
     </div>
         <div class="container  mt-2 justify-content-center">

@@ -17,7 +17,14 @@
 
 </head>
 
-<body class="body2">
+<body class="body" style="background-image: url({{asset("logincss/img/imagenfondo.jpg")}});
+    background-size: 100% auto;
+    background-position: center top;
+    background-repeat: no-repeat;
+    backface-visibility: 1%;
+    "
+
+    >
     <nav class="navbar navbar-expand-lg" style="background: rgb(205, 206, 206) ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
