@@ -129,7 +129,7 @@
                             },
                             "commandHandler.archetypeGroupData": {
                                 isGroup: true,
-                                text: "NEW GROUPf"
+                                text: ""
 
                             },
                             //crear grupo
