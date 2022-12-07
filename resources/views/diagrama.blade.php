@@ -406,7 +406,7 @@
                         return [
                             $("ContextMenuButton",
                                 $(go.Panel, "Horizontal",
-                                    ColorButton("white", "fill"), ColorButton("lightskyblue", "fill"), ColorButton("aliceblue",
+                                    ColorButton("transparent", "fill"), ColorButton("lightskyblue", "fill"), ColorButton("aliceblue",
                                         "fill"), ColorButton("lightblue", "fill")
                                 )
                             ),
