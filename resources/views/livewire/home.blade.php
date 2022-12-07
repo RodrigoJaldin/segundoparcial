@@ -138,7 +138,7 @@
     @endif
     {{-- tabla de diagramas  compartidos --}}
     @if (!$op)
-    <div class="container justify-content-center text-center pt-3 mt-2" style="background: rgba(255, 255, 255, 0.471); width:300px; border-radius: 5px;text-align: center;border:2px solid black">
+    <div class="container justify-content-center text-center pt-3 mt-2" style="background: rgba(255, 255, 255, 0.471); width:500px; border-radius: 5px;text-align: center;border:2px solid black">
         <h1  style="color: rgb(254, 10, 10); font-weight: 4;font-family: Times New Roman">Diagramas Compartidos</h1>
 
     </div>
