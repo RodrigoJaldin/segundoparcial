@@ -72,10 +72,7 @@
 
 
 {{-- /******************************************************************************************/ --}}
-    <div class="container justify-content-center text-center pt-3 mb-2">
-        <h1>Diagramas</h1>
 
-    </div>
 
 
     <div class="container  pt-3">
@@ -87,8 +84,8 @@
     <!--tabla de diagramas-->
     {{-- tabla de mis diagramas --}}
     @if ($op)
-    <div class="container justify-content-center text-center pt-3 mb-2" >
-        <h2 style="color: rgb(254, 10, 10)">Mis Diagramas</h2>
+    <div class="container justify-content-center text-center pt-3 mt-2" style="background: rgba(255, 255, 255, 0.471); width:300px; border-radius: 5px;text-align: center;border:2px solid black">
+        <h1  style="color: rgb(254, 10, 10); font-weight: 4;font-family: Times New Roman">Mis Diagramas</h1>
 
     </div>
         <div class="container  mt-2 justify-content-center">
@@ -141,8 +138,8 @@
     @endif
     {{-- tabla de diagramas  compartidos --}}
     @if (!$op)
-    <div class="container justify-content-center text-center pt-3 mb-2">
-        <h2 style="color: rgb(254, 10, 10)">Diagramas Compartidos</h2>
+    <div class="container justify-content-center text-center pt-3 mt-2" style="background: rgba(255, 255, 255, 0.471); width:300px; border-radius: 5px;text-align: center;border:2px solid black">
+        <h1  style="color: rgb(254, 10, 10); font-weight: 4;font-family: Times New Roman">Diagramas Compartidos</h1>
 
     </div>
         <div class="container  mt-2 justify-content-center">

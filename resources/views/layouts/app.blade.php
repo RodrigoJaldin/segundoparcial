@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +27,7 @@
     <nav class="navbar navbar-expand-lg" style="background: rgb(205, 206, 206) ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="{{ asset('logincss/img/c4logo.png')}}" width="50px" height="50px">
+                <img src="{{ asset('logincss/img/c4logo.png')}}" width="50px" height="50px" >
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
