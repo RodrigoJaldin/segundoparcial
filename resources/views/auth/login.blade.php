@@ -63,7 +63,7 @@
                         <a class="small text-muted" href="{{ route('password.request') }}">
                             {{ __('¿Olvido su contraseña?') }}</a>
                         <p class="mb-5 pb-lg-2" style="color: #393f81;">No tienes una cuenta? <a href="register"
-                            style="color: #393f81;">Resgistrate aqui!</a></p>
+                            style="color: #393f81;">Registrate aqui!</a></p>
                       </form>
                     </div>
                   </div>

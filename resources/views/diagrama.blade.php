@@ -32,7 +32,7 @@
 
                 <button class="btn btn-success" onclick=save()>Guardar mi Diagrama</button>
                 <button class="btn btn-danger" type="button" onclick=eliminar()>Limpiar Vista</button>
-                <button class="btn btn-primary" type="button" onclick=convertirPNG()>Exportar PNG</button>
+                <button class="btn btn-primary" type="button" onclick=convertirJPG()>Exportar JPG</button>
                 <button class="btn btn-primary" type="button"  onclick=pdf()>Exportar PDF</button>
                 <button class="btn btn-primary" type="button" >Exportar json</button>
                 <button class="btn btn-secondary" type="button" onclick=imprimir()>Imprimir</button>
@@ -977,7 +977,7 @@
                 //png
                 function myCallback(blob) {
                     var url = window.URL.createObjectURL(blob);
-                    var filename = "Diagrama.png";
+                    var filename = "Diagrama.jpg";
                     var a = document.createElement("a");
                     a.style = "display: none";
                     a.href = url;
@@ -997,7 +997,7 @@
                     });
                 }
 
-                function convertirPNG() {
+                function convertirJPG() {
                     var blob = myDiagram.makeImageData({
                         background: "white",
                         returnType: "blob",
@@ -1063,10 +1063,10 @@
                         </div>
                     </div>
                     <div id="myDiagramDiv"
-                        style="flex-grow: 1; height: 620px; border: 1px solid black; position: relative; -webkit-tap-highlight-color: rgba(255, 255, 255, 0);">
+                        style="flex-grow: 1; height: 620px; border: 1px solid black; position: relative; -webkit-tap-highlight-color: rgb(255, 255, 255); background-color: rgba(255, 255, 255, 0.682);">
                         <canvas tabindex="0" width="1263" height="772"
-                            style="position: absolute; top: 0px; left: 0px; z-index: 2; user-select: none; touch-action: none; width: 1011px; height: 618px;"></canvas>
-                        <div style="position: absolute; overflow: auto; width: 1011px; height: 618px; z-index: 1;">
+                            style="position: absolute; top: 0px; left: 0px; z-index: 2; user-select: none; touch-action: none; width: 1011px; height: 618px; "></canvas>
+                        <div style="position: absolute; overflow: auto; width: 1011px; height: 618px; z-index: 1; ">
                             <div style="position: absolute; width: 1px; height: 1px;"></div>
                         </div>
                     </div>

@@ -92,10 +92,10 @@
                             {{ __('Registrarse') }}</button>
                         </div>
 
-                        <a class="small text-muted" href="{{ route('password.request') }}">
-                            {{ __('¿Olvido su contraseña?') }}</a>
+                       {{--  <a class="small text-muted" href="{{ route('password.request') }}">
+                            {{ __('¿Olvido su contraseña?') }}</a> --}}
                         <p class="mb-5 pb-lg-2" style="color: #393f81;">ya tienes una cuenta? <a href="login"
-                            style="color: #393f81;"> Iniciar Session!</a></p>
+                            style="color: #393f81;"> Iniciar Sesion!</a></p>
                       </form>
                     </div>
                   </div>

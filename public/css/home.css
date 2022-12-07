@@ -1,8 +1,9 @@
 .body1 {
-    background-image: url(../logincss/img/fondo.png);
+    background-image: url(../logincss/img/fondo1.jpg);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
+    backface-visibility: 1%;
 }
 
 .modaleliminar-contenido {
