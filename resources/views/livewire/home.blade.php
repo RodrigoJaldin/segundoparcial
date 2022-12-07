@@ -39,7 +39,6 @@
         </div>
     </div>
 
-    <!--falta por hacerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr-->
     <!-- Modal Para Unirse -->
 
     @if ($modalUnirse)
