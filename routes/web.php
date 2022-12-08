@@ -26,3 +26,6 @@ Route::get('/exportar', [App\Http\Controllers\DocumentController::class, 'export
 ;
 Route::get('/exportarxml', [App\Http\Controllers\DocumentController::class, 'exportarxml'])->name('exportarxml')->middleware(['auth']);
 ;
+
+Route::post('/importar', [App\Http\Controllers\DocumentController::class, 'importar'])->name('importar')->middleware(['auth']);
+;

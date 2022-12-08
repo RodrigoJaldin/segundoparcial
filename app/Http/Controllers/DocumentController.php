@@ -98,4 +98,6 @@ class DocumentController extends Controller
         $path=public_path('diagrama.xml');
         return response()->download($path);
     }
+
+
 }
