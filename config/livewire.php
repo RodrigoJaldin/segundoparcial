@@ -54,8 +54,8 @@ return [
     |
     */
 
-    'asset_url' => null,
-   // 'asset_url' => 'http://54.162.179.155/public',
+    //'asset_url' => null,
+    'asset_url' => 'http://54.162.179.155/public',
 
 
 
