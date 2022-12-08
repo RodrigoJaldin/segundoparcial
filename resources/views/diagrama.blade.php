@@ -643,7 +643,7 @@
                                 // Contenido de paleta
                                 model: new go.GraphLinksModel([ // specify the contents of the Palette
                                         {
-                                            figure: "BpmnTaskUser",
+                                            figure: "BpmnTaskUser",//cambio de figura
                                             "size": "70 60",
                                             text: 'User',
                                             fill: "lightyellow"
