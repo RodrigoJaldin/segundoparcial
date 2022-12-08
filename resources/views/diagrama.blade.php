@@ -651,6 +651,12 @@
                                             fill: "lightyellow"
                                         },
                                         {
+                                            figure: "Procedure",
+                                            "size": "90 10",
+                                            text: "Mobile",
+                                            fill: "lightyellow",
+                                        },
+                                        {
                                             figure: "Database",
                                             "size": "60 70",
                                             fill: "lightyellow",
