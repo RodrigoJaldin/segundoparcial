@@ -22,11 +22,22 @@
     </script>
 
     <body>
+        <?php
+                chdir(public_path()); //Direcionar el archivo a descargar
+                $file_name = 'diagrama.json';
+                file_put_contents($file_name, $json);
+        ?>
+                <?php
+                chdir(public_path()); //Direcionar el archivo a descargar
+                $file_name = 'diagrama.xml';
+                file_put_contents($file_name, $json);
+        ?>
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-end mx-2 ">
 
-            @foreach ($document as $item)
-                <h2 class="me-auto justify-content-start mx-2">Diagrama: {{ $item->name }}</h2>
+            @foreach ($documents as $item)
+                <h2 class="me-auto justify-content-start mx-2"
+                 style="color: rgb(254, 10, 10); font-weight: 4;font-family: Times New Roman">Diagrama: {{ $item->name }}</h2>
             @endforeach
             <div class="m-2 no-print">
 
@@ -34,8 +45,27 @@
                 <button class="btn btn-danger" type="button" onclick=eliminar()>Limpiar Vista</button>
                 <button class="btn btn-primary" type="button" onclick=convertirJPG()>Exportar JPG</button>
                 <button class="btn btn-primary" type="button"  onclick=pdf()>Exportar PDF</button>
-                <button class="btn btn-primary" type="button" >Exportar json</button>
                 <button class="btn btn-secondary" type="button" onclick=imprimir()>Imprimir</button>
+                <div class="row align-self-start">
+                    <div class="col">
+                        <form class="pt-2" method="GET" action="{{ route('exportar') }}">
+                            {{method_field('GET')}}
+                             {{csrf_field()}}
+                             <button class="btn btn-primary"  type="submit" >Exportar Json</button>
+
+                        </form>
+                    </div>
+                   <div class="col">
+                    <form class="pt-2" method="GET" action="{{ route('exportarxml') }}">
+                        {{method_field('GET')}}
+                         {{csrf_field()}}
+                         <button class="btn btn-primary"  type="submit" >Exportar XML</button>
+                    </form>
+                   </div>
+
+                </div>
+
+
 
             </div>
 
@@ -890,7 +920,7 @@
                 setInterval('autosave()', 1800000);
 
                 function save() {
-
+                    location.reload();
                     //document.getElementById("mySavedModel").value = myDiagram.model.toJson();
                     saveInDB()
                     myDiagram.isModified = false;

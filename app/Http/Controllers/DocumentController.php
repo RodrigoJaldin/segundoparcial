@@ -84,7 +84,18 @@ class DocumentController extends Controller
     }
 
     public function diagrama($id){
-        $document=Document::where('id',$id)->get();
-        return view('diagrama', compact('id'),compact('document'));
+        $document=Document::where('id',$id)->get()->first();
+        $documents=Document::where('id',$id)->get();
+        $json=$document->diagramajson;
+        return view('diagrama', compact('id','json'),compact('document','documents'));
+    }
+    public function exportarjson(){
+        $path=public_path('diagrama.json');
+        return response()->download($path);
+    }
+
+    public function exportarxml(){
+        $path=public_path('diagrama.xml');
+        return response()->download($path);
     }
 }

@@ -270,7 +270,5 @@ class Home extends Component
         $this->limpiar();
     }
 
-    /* <form class="container" class="guardar" method="POST"
-                            action="{{ route('diagrama.update', $diagramas[0]->id) }}" enctype="multipart/form-data">
-                            @csrf*/
+
 }

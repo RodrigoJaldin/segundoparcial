@@ -1,0 +1,11 @@
+{ "class": "GraphLinksModel",
+  "nodeDataArray": [
+{"figure":"package","size":"60 60","text":"Paquete","fill":"lightyellow","key":-3,"loc":"-440 -90"},
+{"figure":"Database","size":"60 70","fill":"lightyellow","text":"Database","key":-2,"loc":"-110 -90"},
+{"figure":"package","size":"60 60","text":"Paquete","fill":"lightyellow","key":-4,"loc":"-370 -210"},
+{"figure":"Class","size":"60 60","fill":"lightyellow","key":-5,"loc":"-170 -220"}
+],
+  "linkDataArray": [
+{"from":-3,"to":-2,"points":[-410,-90,-400,-90,-275,-90,-275,-90,-150,-90,-140,-90],"text":"ddd"},
+{"from":-4,"to":-5,"points":[-340,-210,-330,-210,-270,-210,-270,-220,-210,-220,-200,-220]}
+]}

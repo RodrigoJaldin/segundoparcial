@@ -22,4 +22,7 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 ;
 Route::get('/diagramador/{id}', [App\Http\Controllers\DocumentController::class, 'diagrama'])->name('diagramador')->middleware(['auth']);
 ;
-
+Route::get('/exportar', [App\Http\Controllers\DocumentController::class, 'exportarjson'])->name('exportar')->middleware(['auth']);
+;
+Route::get('/exportarxml', [App\Http\Controllers\DocumentController::class, 'exportarxml'])->name('exportarxml')->middleware(['auth']);
+;
